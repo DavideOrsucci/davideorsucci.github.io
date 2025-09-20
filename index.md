@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: "Welcome"
 ---
 
@@ -21,6 +21,3 @@ Here you can find my projects, skills, and ways to connect with me.
 - ✉️ **Email**: dade.orsu@gmail.com  
 - 🌐 **LinkedIn**: [My profile](https://www.linkedin.com/in/davide-orsucci-206319250/)  
 
----
-
-Thanks for visiting! 
