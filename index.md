@@ -1,10 +1,26 @@
 ---
-layout: home
+layout: default
+title: "Welcome"
 ---
 
-# Hello! 👋
-Welcome on my personal Website  
-Sono **Davide Orsucci** e here I share my projects, interests and contacts.
+# Hi, I'm Dade Orsu!
 
-- 📂 [Il mio GitHub](https://github.com/DadeOrsu)
-- 📧 dade.orsu@gmail.com
+Welcome to my personal website.  
+Here you can find my projects, skills, and ways to connect with me.
+
+---
+
+## What I Do
+- 💻 Software development & coding
+- 📂 Contributions on [GitHub](https://github.com/dadeorsu)
+- 📚 Continuous learning and experimenting
+
+---
+
+## 📫 Get in Touch
+- ✉️ **Email**: dade.orsu@gmail.com  
+- 🌐 **LinkedIn**: [My profile](https://www.linkedin.com/in/davide-orsucci-206319250/)  
+
+---
+
+Thanks for visiting! 
