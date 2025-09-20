@@ -3,7 +3,7 @@ layout: default
 title: "Welcome"
 ---
 
-# Hi, I'm Dade Orsu!
+# Hi, I'm Davide Orsucci
 
 Welcome to my personal website.  
 Here you can find my projects, skills, and ways to connect with me.
