@@ -5,7 +5,7 @@ excerpt: "Software Developer passionate about creating innovative solutions"
 header:
   overlay_color: "#5e616a"
   overlay_filter: 0.3
-  overlay_image: /assets/images/header-bg.jpg 
+  overlay_image: /assets/images/header-bg.jpg  # COMMENTA SE NON HAI L'IMMAGINE
   actions:
     - label: "View My Projects"
       url: "/projects/"
@@ -13,14 +13,11 @@ header:
     - label: "Contact Me"
       url: "/contact/"
       btn_class: "btn--warning"
-intro: 
-  - excerpt: '**Technologies I work with:** Python • Java • JavaScript • React • Node.js • MySQL'
 ---
 
 {% include feature_row id="intro" type="center" %}
 
 ## 🚀 Latest Activities
-
 - 🔭 **Currently working on**: Personal portfolio projects
 - 🌱 **Learning**: Advanced React and Cloud technologies  
 - 👯 **Looking to collaborate**: On open source projects
