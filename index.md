@@ -5,7 +5,7 @@ excerpt: "Software Developer passionate about creating innovative solutions"
 header:
   overlay_color: "#5e616a"
   overlay_filter: 0.3
-  overlay_image: /assets/images/header-bg.jpg  # Opzionale - puoi aggiungere dopo
+  overlay_image: /assets/images/header-bg.jpg 
   actions:
     - label: "View My Projects"
       url: "/projects/"
@@ -13,7 +13,6 @@ header:
     - label: "Contact Me"
       url: "/contact/"
       btn_class: "btn--warning"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"  # Opzionale
 feature_row:
   - title: "About Me"
     excerpt: "Learn more about my background and skills"
