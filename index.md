@@ -3,7 +3,7 @@ layout: splash
 title: "Davide Orcucci"
 excerpt: "Software Developer passionate about creating innovative solutions"
 header:
-  overlay_image: https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
+  overlay_color: "#5e616a"
   overlay_filter: 0.3
   overlay_image: /assets/images/header-bg.jpg  # Opzionale - puoi aggiungere dopo
   actions:
