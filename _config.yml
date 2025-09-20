@@ -56,6 +56,7 @@ defaults:
       path: ""
       type: "pages"
     values:
+      nav: "main"
       layout: "single"
       author_profile: true
       share: true
@@ -63,10 +64,6 @@ defaults:
       read_time: true
       toc: true
       toc_sticky: true
-      # Mostra navigation in tutte le pagine
-      sidebar:
-        nav: "main"
-
 
 
 # ============= HEADER SETTINGS =============
