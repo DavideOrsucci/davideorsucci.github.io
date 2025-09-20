@@ -81,7 +81,10 @@ navigation:
     url: "/projects/"
   - title: "Contact"
     url: "/contact/"
-
+nav:
+  enabled: true
+  show_custom_links: true
+  
 # Footer links
 footer:
   links:
