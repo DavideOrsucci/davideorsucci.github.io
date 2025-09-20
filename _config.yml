@@ -1,14 +1,9 @@
-remote_theme: athackst/jekyll-theme-profile
+theme: jekyll-theme-minimal  
 
 title: "Davide Orsucci"
 description: "Personal website and portfolio"
+baseurl: "" 
+url: "https://dadeorsu.github.io"  
 
-
-profile_picture: /assets/images/profile.jpg   
-author:
-  name: "Davide Orsucci"
-  email: "dade.orsu@gmail.com"
-
-social_media:
-  github: dadeorsu
-  linkedin: davide-orsucci-206319250
+github_username: dadeorsu
+linkedin_username: davide-orsucci-206319250
