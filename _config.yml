@@ -1,3 +1,14 @@
+remote_theme: athackst/jekyll-theme-profile
+
 title: "Davide Orsucci"
-description: "Personal website built with GitHub Pages and Jekyll"
-theme: jekyll-theme-cayman
+description: "Personal website and portfolio"
+
+
+profile_picture: /assets/images/profile.jpg   
+author:
+  name: "Davide Orsucci"
+  email: "dade.orsu@gmail.com"
+
+social_media:
+  github: dadeorsu
+  linkedin: davide-orsucci-206319250
