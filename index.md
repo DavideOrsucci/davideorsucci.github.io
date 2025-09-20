@@ -3,7 +3,7 @@ layout: splash
 title: "Davide Orsucci"
 header:
   overlay_color: "#5e616a"
-  overlay_image: /assets/images/header-bg.jpg  # opzionale
+  overlay_filter: 0.5
   actions:
     - label: "View My Projects"
       url: "/projects/"
