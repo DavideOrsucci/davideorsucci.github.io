@@ -1,11 +1,11 @@
 ---
 layout: splash
-title: "Davide Orcucci"
+title: "Davide Orsucci"  # Corretto il cognome
 excerpt: "Software Developer passionate about creating innovative solutions"
 header:
   overlay_color: "#5e616a"
   overlay_filter: 0.3
-  overlay_image: /assets/images/header-bg.jpg 
+  overlay_image: /assets/images/header-bg.jpg   # Spazio dopo .jpg rimosso
   actions:
     - label: "View My Projects"
       url: "/projects/"
