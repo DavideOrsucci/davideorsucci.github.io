@@ -1,19 +1,34 @@
 # _config.yml
 # ============= CONFIGURAZIONE BASE =============
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "default"  # "default", "dark", "air", "aqua", "contrast", "neon", "plum"
-
+minimal_mistakes_skin: "default"
 title: "Davide Orsucci"
 name: "Davide Orsucci"
 description: "Software Developer & Computer Science Student"
-url: "https://dadeorsu.github.io"  # SOSTITUISCI con il tuo username se diverso
-baseurl: ""  # Lascia vuoto per dominio root
+url: "https://dadeorsu.github.io"
+baseurl: ""
+
+# ============= NAVIGATION BAR =============
+navigation:
+  main:
+    - title: "Home"
+      url: "/"
+    - title: "About"
+      url: "/about/"
+    - title: "Projects"
+      url: "/projects/"
+    - title: "Contact"
+      url: "/contact/"
+
+# Titolo del sito nella nav
+site_title: "Davide Orsucci"
+site_logo: "/assets/images/profile.jpg"  # Opzionale
 
 # ============= AUTORE & SOCIAL =============
 author:
   name: "Davide Orsucci"
-  avatar: "https://github.com/dadeorsu.png?size=400"  # Foto profilo da GitHub
-  bio: "Passionate about software development and innovative technologies"
+  avatar: "https://github.com/dadeorsu.png?size=400"
+  bio: "Software Developer passionate about coding and technology"
   location: "Italy"
   email: "dade.orsu@gmail.com"
   links:
@@ -35,9 +50,8 @@ email: dade.orsu@gmail.com
 # ============= IMPOSTAZIONI SITO =============
 locale: "it-IT"
 timezone: "Europe/Rome"
-encoding: "utf-8"
 
-# Plugins supportati da GitHub Pages
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -46,7 +60,6 @@ plugins:
 
 # Impostazioni predefinite
 defaults:
-  # Impostazioni per tutte le pagine
   - scope:
       path: ""
       type: "pages"
@@ -58,34 +71,21 @@ defaults:
       read_time: true
       toc: true
       toc_sticky: true
+      show_nav: true  # Mostra navigation bar
 
-  # Impostazioni per i post (se li usi in futuro)
-  - scope:
-      path: "_posts"
-      type: "posts"
-    values:
-      layout: "single"
-      author_profile: true
-      share: true
-      comments: false
-      read_time: true
-      toc: true
+# ============= HEADER SETTINGS =============
+header:
+  overlay_image: "/assets/images/header-bg.jpg"  # Opzionale
+  overlay_filter: 0.3
+  actions:
+    - label: "View Projects"
+      url: "/projects/"
+      btn_class: "btn--primary"
+    - label: "Contact Me"
+      url: "/contact/"
+      btn_class: "btn--warning"
 
-# ============= NAVIGAZIONE =============
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "About"
-    url: "/about/"
-  - title: "Projects"
-    url: "/projects/"
-  - title: "Contact"
-    url: "/contact/"
-nav:
-  enabled: true
-  show_custom_links: true
-  
-# Footer links
+# ============= FOOTER =============
 footer:
   links:
     - label: "GitHub"
@@ -97,43 +97,32 @@ footer:
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:dade.orsu@gmail.com"
-
-# ============= SEO & ANALYTICS =============
-# Google Analytics (opzionale, se hai un ID)
-google_analytics: "UA-XXXXXXXXX-X"  # SOSTITUISCI con il tuo ID
-
-# SEO Tag
-seo:
-  type: "Person"
-  name: "Davide Orsucci"
-  description: "Software Developer & Computer Science Student"
-  links:
-    - "https://github.com/dadeorsu"
-    - "https://linkedin.com/in/davide-orsucci-206319250"
-
-# ============= PERSONALIZZAZIONI =============
-# Avatar settings
-avatar:
-  path: "https://github.com/dadeorsu.png?size=400"
-  class: "circle"  # "circle" o "rounded"
-
-# Header settings
-header:
-  overlay_image: "/assets/images/header-bg.jpg"  # Opzionale: crea questa immagine dopo
-  overlay_filter: 0.5  # Opacità overlay (0.0 - 1.0)
-
-# Footer settings
-footer:
   copyright: "© 2024 Davide Orsucci. All rights reserved."
 
-# ============= FEATURE SETTINGS =============
-feature:
-  show_featured_posts: false  # Imposta true se usi post featured
-  show_featured_categories: false
+# ============= PERSONALIZZAZIONI =============
+# Avatar
+avatar:
+  path: "https://github.com/dadeorsu.png?size=400"
+  class: "circle"
 
-# ============= COMMENTI (opzionale) =============
+# Colori
+colors:
+  primary: "#005cc5"
+  warning: "#ffd33d"
+
+# Masthead settings
+masthead:
+  enabled: true
+  title: "Davide Orsucci"
+  subtitle: "Software Developer"
+
+# ============= FEATURE SETTINGS =============
+feature_rows:
+  - frontmatter: true
+
+# ============= COMMENTI =============
 comments:
-  provider: false  # "disqus", "utterances", "giscus" se vuoi commenti
+  provider: false
 
 # ============= PAGINAZIONE =============
 paginate: 5
@@ -143,7 +132,6 @@ paginate_path: "/page:num/"
 include:
   - _pages
   - _posts
-  - _projects  # Se crei una cartella per progetti
 
 exclude:
   - Gemfile
@@ -154,8 +142,6 @@ exclude:
   - .jekyll-cache
   - LICENSE
   - README.md
-  - package.json
-  - package-lock.json
 
 # ============= MARKDOWN SETTINGS =============
 markdown: kramdown
