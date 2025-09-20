@@ -10,6 +10,7 @@ baseurl: ""
 
 # ============= NAVIGATION BAR =============
 navigation:
+  enabled: true
   main:
     - title: "Home"
       url: "/"
