@@ -1,10 +1,166 @@
-theme: jekyll-theme-cayman
-title: "Davide Orsucci"
-description: "Personal website and portfolio"
-github:
-  is_project_page: false
-baseurl: "" 
-url: "https://dadeorsu.github.io"  
+# _config.yml
+# ============= CONFIGURAZIONE BASE =============
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "default"  # "default", "dark", "air", "aqua", "contrast", "neon", "plum"
 
+title: "Davide Orsucci"
+name: "Davide Orsucci"
+description: "Software Developer & Computer Science Student"
+url: "https://dadeorsu.github.io"  # SOSTITUISCI con il tuo username se diverso
+baseurl: ""  # Lascia vuoto per dominio root
+
+# ============= AUTORE & SOCIAL =============
+author:
+  name: "Davide Orsucci"
+  avatar: "https://github.com/dadeorsu.png?size=400"  # Foto profilo da GitHub
+  bio: "Passionate about software development and innovative technologies"
+  location: "Italy"
+  email: "dade.orsu@gmail.com"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/dadeorsu"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/davide-orsucci-206319250"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:dade.orsu@gmail.com"
+
+# Social usernames
 github_username: dadeorsu
 linkedin_username: davide-orsucci-206319250
+email: dade.orsu@gmail.com
+
+# ============= IMPOSTAZIONI SITO =============
+locale: "it-IT"
+timezone: "Europe/Rome"
+encoding: "utf-8"
+
+# Plugins supportati da GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# Impostazioni predefinite
+defaults:
+  # Impostazioni per tutte le pagine
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
+      share: true
+      comments: false
+      read_time: true
+      toc: true
+      toc_sticky: true
+
+  # Impostazioni per i post (se li usi in futuro)
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true
+      share: true
+      comments: false
+      read_time: true
+      toc: true
+
+# ============= NAVIGAZIONE =============
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Footer links
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/dadeorsu"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/davide-orsucci-206319250"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:dade.orsu@gmail.com"
+
+# ============= SEO & ANALYTICS =============
+# Google Analytics (opzionale, se hai un ID)
+google_analytics: "UA-XXXXXXXXX-X"  # SOSTITUISCI con il tuo ID
+
+# SEO Tag
+seo:
+  type: "Person"
+  name: "Davide Orsucci"
+  description: "Software Developer & Computer Science Student"
+  links:
+    - "https://github.com/dadeorsu"
+    - "https://linkedin.com/in/davide-orsucci-206319250"
+
+# ============= PERSONALIZZAZIONI =============
+# Avatar settings
+avatar:
+  path: "https://github.com/dadeorsu.png?size=400"
+  class: "circle"  # "circle" o "rounded"
+
+# Header settings
+header:
+  overlay_image: "/assets/images/header-bg.jpg"  # Opzionale: crea questa immagine dopo
+  overlay_filter: 0.5  # Opacità overlay (0.0 - 1.0)
+
+# Footer settings
+footer:
+  copyright: "© 2024 Davide Orsucci. All rights reserved."
+
+# ============= FEATURE SETTINGS =============
+feature:
+  show_featured_posts: false  # Imposta true se usi post featured
+  show_featured_categories: false
+
+# ============= COMMENTI (opzionale) =============
+comments:
+  provider: false  # "disqus", "utterances", "giscus" se vuoi commenti
+
+# ============= PAGINAZIONE =============
+paginate: 5
+paginate_path: "/page:num/"
+
+# ============= BUILD SETTINGS =============
+include:
+  - _pages
+  - _posts
+  - _projects  # Se crei una cartella per progetti
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - LICENSE
+  - README.md
+  - package.json
+  - package-lock.json
+
+# ============= MARKDOWN SETTINGS =============
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# ============= OUTPUT SETTINGS =============
+output: true
+permalink: pretty
