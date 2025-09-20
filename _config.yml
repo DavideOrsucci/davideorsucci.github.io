@@ -8,23 +8,7 @@ description: "Software Developer & Computer Science Student"
 url: "https://dadeorsu.github.io"
 baseurl: ""
 
-# ============= NAVIGATION BAR =============
-# NAVIGATION CONFIG
-navigation:
-  main:
-    - title: "Home"
-      url: "/"
-    - title: "About"
-      url: "/about/"
-    - title: "Projects"
-      url: "/projects/"
-    - title: "Contact"
-      url: "/contact/"
 
-# FORZA LA VISIBILITÀ
-nav:
-  enabled: true
-  show_custom_links: true
 
 # MASTHEAD (Titolo in alto)
 masthead:
@@ -79,7 +63,20 @@ defaults:
       read_time: true
       toc: true
       toc_sticky: true
-      show_nav: true  # Mostra navigation bar
+      # Mostra navigation in tutte le pagine
+      sidebar:
+        nav: "main"
+
+# Navigation per greedy-nav
+main:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Contact"
+    url: "/contact/"
 
 # ============= HEADER SETTINGS =============
 header:
