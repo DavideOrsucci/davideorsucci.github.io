@@ -9,8 +9,8 @@ url: "https://dadeorsu.github.io"
 baseurl: ""
 
 # ============= NAVIGATION BAR =============
+# NAVIGATION CONFIG
 navigation:
-  enabled: true
   main:
     - title: "Home"
       url: "/"
@@ -21,9 +21,16 @@ navigation:
     - title: "Contact"
       url: "/contact/"
 
-# Titolo del sito nella nav
-site_title: "Davide Orsucci"
-site_logo: "/assets/images/profile.jpg"  # Opzionale
+# FORZA LA VISIBILITÀ
+nav:
+  enabled: true
+  show_custom_links: true
+
+# MASTHEAD (Titolo in alto)
+masthead:
+  enabled: true
+  title: "Davide Orsucci"
+  subtitle: "Software Developer"
 
 # ============= AUTORE & SOCIAL =============
 author:
