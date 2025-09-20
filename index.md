@@ -1,20 +1,38 @@
 ---
-layout: default
-title: "Davide Orsucci - Software Developer"
+layout: splash
+title: "Davide Orsucci"
+header:
+  overlay_color: "#5e616a"
+  overlay_image: /assets/images/header-bg.jpg  # opzionale
+  actions:
+    - label: "View My Projects"
+      url: "/projects/"
+    - label: "Contact Me"
+      url: "/contact/"
+excerpt: "Software Developer passionate about creating innovative solutions"
+feature_row:
+  - title: "About Me"
+    excerpt: "Learn more about my background and skills"
+    url: "/about/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - title: "Projects"
+    excerpt: "Check out my latest work and contributions"
+    url: "/projects/"
+    btn_label: "View Projects"
+    btn_class: "btn--primary"
+  - title: "Contact"
+    excerpt: "Get in touch for collaborations or opportunities"
+    url: "/contact/"
+    btn_label: "Contact Me"
+    btn_class: "btn--primary"
 ---
 
-# Hi, I'm Davide Orsucci 👋
+{% include feature_row %}
 
-Welcome to my personal website and portfolio.
+## 🚀 Latest Activities
 
-## 🚀 What I Do
-- 💻 Software development & coding
-- 📂 Active on [GitHub](https://github.com/dadeorsu)
-- 📚 Continuous learning and experimenting
-
-## 📫 Get in Touch
-- ✉️ **Email**: dade.orsu@gmail.com  
-- 💼 **LinkedIn**: [Davide Orsucci](https://www.linkedin.com/in/davide-orsucci-206319250/)
-- 🐱 **GitHub**: [dadeorsu](https://github.com/dadeorsu)
-
----
+- 🔭 Currently working on personal projects
+- 🌱 Learning new technologies daily  
+- 👯 Looking to collaborate on open source
+- 💬 Ask me about Python, Java, and Web Development
