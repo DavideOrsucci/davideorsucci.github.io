@@ -1,0 +1,49 @@
+---
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+// Personalizzazioni homepage
+.page__hero--overlay {
+  padding: 8em 0;
+  .page__title {
+    font-size: 3.5em;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  }
+  .page__lead {
+    font-size: 1.5em;
+    margin-bottom: 2em;
+  }
+}
+
+// Bottoni più grandi
+.btn--primary {
+  padding: 0.8em 1.5em;
+  font-size: 1.1em;
+  margin: 0.5em;
+}
+
+// Feature row migliorata
+.feature__item {
+  text-align: center;
+  padding: 2em 1em;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+}
+
+// Lista activities
+.page__content {
+  ul {
+    li {
+      margin-bottom: 1em;
+      font-size: 1.1em;
+    }
+  }
+}
