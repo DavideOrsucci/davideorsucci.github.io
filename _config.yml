@@ -1,7 +1,8 @@
 theme: jekyll-theme-cayman
-
 title: "Davide Orsucci"
 description: "Personal website and portfolio"
+github:
+  is_project_page: false
 baseurl: "" 
 url: "https://dadeorsu.github.io"  
 
