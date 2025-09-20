@@ -1,4 +1,4 @@
-remote_theme: athackst/jekyll-theme-profile
+theme: minima
 
 title: "Davide Orsucci"
 description: "Personal website and portfolio"
