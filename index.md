@@ -1,6 +1,7 @@
 ---
-layout: home
-title: "Home"
+layout: profile 
+title: "Davide Orsucci"
+description: "Personal website and portfolio"
 ---
 
 # Hi, I'm Davide Orsucci
