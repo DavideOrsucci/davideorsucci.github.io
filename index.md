@@ -5,7 +5,7 @@ excerpt: "Software Developer passionate about creating innovative solutions"
 header:
   overlay_color: "#5e616a"
   overlay_filter: 0.3
-  overlay_image: /assets/images/header-bg.jpg  # COMMENTA SE NON HAI L'IMMAGINE
+  overlay_image: /assets/images/header-bg.jpg 
   actions:
     - label: "View My Projects"
       url: "/projects/"
@@ -14,6 +14,7 @@ header:
       url: "/contact/"
       btn_class: "btn--warning"
 ---
+
 {% include feature_row id="intro" type="center" %}
 
 ## 🚀 Latest Activities
