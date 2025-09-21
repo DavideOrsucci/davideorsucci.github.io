@@ -8,8 +8,6 @@ description: "Software Developer & Computer Science Student"
 url: "https://dadeorsu.github.io"
 baseurl: ""
 
-
-
 # MASTHEAD (Titolo in alto)
 masthead:
   enabled: true
