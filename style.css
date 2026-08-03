@@ -39,7 +39,13 @@ h1 {
     100% { opacity: 0; transform: translateY(0); }
 }
 
-/* --- Gatto --- */
+/* 
+==================================================
+  CAT ANIMATION CREDITS
+  Original Author: Johan Mouchet
+  Source: https://codepen.io/johanmouchet/pen/OXxvqM
+================================================== 
+*/
 .cat {
     position: relative;
     height: var(--size);
