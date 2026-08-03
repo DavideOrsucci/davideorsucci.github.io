@@ -24,12 +24,42 @@
         }
 
         h1 {
-            margin-bottom: 50px;
+            /* MODIFICA STACCO: portato il margine inferiore a 100px */
+            margin-bottom: 100px;
             font-weight: 400;
             letter-spacing: 2px;
+            font-size: 2.5em; /* Un po' più grande per visibilità */
         }
 
-        /* --- Inizio CSS del Gatto --- */
+        /* --- INIZIO CSS PER I PALLINI ANIMATI --- */
+        .text {
+            /* Il testo principale rimane fisso */
+        }
+
+        .dot {
+            display: inline-block;
+            /* L'animazione completa dura 1.5s ed è infinita */
+            animation: fade-dots 1.5s infinite;
+            opacity: 0; /* Inizialmente invisibili */
+        }
+
+        /* Aggiungiamo i ritardi sequenziali per l'effetto dissolvenza */
+        /* Primo pallino (che è il 2° span all'interno di h1) */
+        .dot:nth-child(2) { animation-delay: 0s; }
+        /* Secondo pallino */
+        .dot:nth-child(3) { animation-delay: 0.3s; }
+        /* Terzo pallino */
+        .dot:nth-child(4) { animation-delay: 0.6s; }
+
+        /* Definizione dell'animazione: dissolvenza e leggero movimento in su */
+        @keyframes fade-dots {
+            0% { opacity: 0; transform: translateY(0); }
+            10% { opacity: 1; transform: translateY(-3px); } /* Appare e sale */
+            100% { opacity: 0; transform: translateY(0); } /* Scompare e scende */
+        }
+        /* --- FINE CSS PER I PALLINI ANIMATI --- */
+
+        /* --- Inizio CSS del Gatto (intatto) --- */
         .cat {
             position: relative;
             height: var(--size);
@@ -196,7 +226,8 @@
 </head>
 <body>
 
-    <h1>Coming soon...</h1>
+    <!-- MODIFICA HTML: testo e pallini sono stati separati per l'animazione -->
+    <h1><span class="text">Coming soon</span><span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></h1>
 
     <div class="cat">
         <div class="ear ear--left"></div>
